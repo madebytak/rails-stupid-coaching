@@ -1,5 +1,7 @@
+<div class="container">
 <h1>Ask</h1>
 <form action="answer" method="get">
- <input type="text" name="question">
-  <input type="submit" value="Ask!">
+ <input type="text" name="question" value="<%= params[:qestion] %>" placeholder="enter your question">
+  <input type="submit" value="Ask!" class="btn btn-primary">
 </form>
+</div>
